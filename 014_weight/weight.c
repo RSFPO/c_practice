@@ -1,6 +1,6 @@
 #include<stdio.h>
-int main()
-{
+int main(){
+
     printf("请输入体重的公斤"
     "如输入\"50\"表示50公斤:");
 
