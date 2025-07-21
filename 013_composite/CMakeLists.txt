@@ -6,5 +6,5 @@ set(CMAKE_C_STANDARD 99)
 
 # 添加可执行文件
 add_executable(013_composite composite.c
-        ../homework_1/homework_1.c)
+        ../014_homework_1/homework_1.c)
 
