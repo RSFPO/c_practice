@@ -3,17 +3,16 @@ int main() {
     int fixedVaule = 10;
     int userInput;
 
-    printf("请输入一个整数 ");
-    scanf("%d", &userInput);
+    printf("请输入一个整数");
+    scanf("%d",&userInput);
 
-    if (userInput > fixedVaule){
+    if (userInput > fixedVaule) {
         printf("win");
     } else if (userInput < fixedVaule) {
         printf("lose");
     }
     return 0;
-}
+};
     //
-// Created by XY on 25-7-22.
+// Created by XY on 25-10-19.
 //
-
