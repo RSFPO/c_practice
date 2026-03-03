@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    printf("%d",1500/350);
+    printf("%d\n",1500/350);
 
     printf("%d",1500%350);
     return 0;
