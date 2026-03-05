@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main () {
-    int f ;
-    int c=5/9*(f-32);
-    scanf ("请输入华氏度","%d",f);
-    printf("%d",c);
+    float f,c;
+    printf("%d",f);
+    scanf("%f",&f);
+    c=(5.0/9)*(f-32);
+    printf("请输出对应的摄氏度(℃):%.2f\n",c);
+
     return 0;
 }
 //
