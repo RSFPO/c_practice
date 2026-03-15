@@ -1,12 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 int main() {
-    int a,b,c;
-    scanf("%d",a,b,c);
-    int s,k;
-    k=(a+b+c)/2;
-    s=√k(k-a)(k-b)(k-c);
-    printf("%d",s);
-    return 0
-}//
-// Created by XY on 26-3-5.
-//
+    float a, b, c, k, area;
+    scanf("%f %f %f", &a, &b, &c);
+    k = (a + b + c) / 2;
+    area = sqrt(k * (k - a) * (k - b) * (k - c));
+    printf("三角形的面积是：%.2f\n", area);
+    return 0;
+}
