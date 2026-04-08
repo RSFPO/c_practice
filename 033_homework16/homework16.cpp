@@ -1,17 +1,26 @@
 #include <stdio.h>
+
 int main() {
-    double a, b, y;
-    if (scanf("%lf+%lf", &a,&b)) {
-        y = a+b;
-    } else if (scanf("%lf-%lf", &a,&b)) {
-        y = a-b;
-    } else if (scanf("%lf*%lf", &a,&b)) {
-        y = a*b;
-    } else if (scanf("%lf/%lf", &a,&b)) {
-        y = a/b;
+    int a, b, c;
+    scanf("%d%c%d", &a, &c, &b);
+
+    if (c == '+') {
+        printf("%d", a + b);
+    } else if (c == '-') {
+        printf("%d", a - b);
+    } else if (c == '*') {
+        printf("%d", a * b);
+    } else if (c == '/') {
+        if (b != 0) {
+            printf("%d", a / b);
+        } else {
+            printf("除数不能为0");
+        }
     }
-    printf("%lf\n", y);
+
     return 0;
-}//
+}
+
+//
 // Created by XY on 26-4-5.
 //
